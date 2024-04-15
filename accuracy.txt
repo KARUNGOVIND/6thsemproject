@@ -1,0 +1,54 @@
+G:\dsc\python\Scripts\python.exe "G:\6sem project\py\plot.py"
+2024-04-15 23:15:45.134756: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-04-15 23:15:45.906114: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Found 360 images belonging to 2 classes.
+Found 100 images belonging to 2 classes.
+G:\dsc\python\lib\site-packages\keras\src\layers\convolutional\base_conv.py:99: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(
+2024-04-15 23:15:47.871745: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+G:\dsc\python\lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:120: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+11/11 ━━━━━━━━━━━━━━━━━━━━ 5s 310ms/step - accuracy: 0.6180 - loss: 0.6564 - val_accuracy: 0.7812 - val_loss: 0.5525
+Epoch 2/10
+ 1/11 ━━━━━━━━━━━━━━━━━━━━ 2s 274ms/step - accuracy: 0.7812 - loss: 0.56392024-04-15 23:15:53.370570: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\Users\LEGION\AppData\Local\Programs\Python\Python310\lib\contextlib.py:153: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(typ, value, traceback)
+2024-04-15 23:15:53.386673: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.7812 - loss: 0.5639 - val_accuracy: 0.7500 - val_loss: 0.5792
+Epoch 3/10
+11/11 ━━━━━━━━━━━━━━━━━━━━ 3s 283ms/step - accuracy: 0.7416 - loss: 0.5860 - val_accuracy: 0.7812 - val_loss: 0.4715
+Epoch 4/10
+ 1/11 ━━━━━━━━━━━━━━━━━━━━ 2s 278ms/step - accuracy: 0.7812 - loss: 0.48232024-04-15 23:15:57.081787: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-04-15 23:15:57.094432: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - accuracy: 0.7812 - loss: 0.4823 - val_accuracy: 0.7500 - val_loss: 0.4191
+Epoch 5/10
+11/11 ━━━━━━━━━━━━━━━━━━━━ 3s 293ms/step - accuracy: 0.7735 - loss: 0.4640 - val_accuracy: 0.5208 - val_loss: 0.6479
+Epoch 6/10
+2024-04-15 23:16:00.860523: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - accuracy: 0.4688 - loss: 0.6436 - val_accuracy: 1.0000 - val_loss: 0.4789
+2024-04-15 23:16:00.872997: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Epoch 7/10
+11/11 ━━━━━━━━━━━━━━━━━━━━ 3s 304ms/step - accuracy: 0.8138 - loss: 0.4292 - val_accuracy: 0.8750 - val_loss: 0.3230
+Epoch 8/10
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - accuracy: 0.9688 - loss: 0.2025 - val_accuracy: 1.0000 - val_loss: 0.0369
+2024-04-15 23:16:04.569256: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-04-15 23:16:04.581262: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+Epoch 9/10
+11/11 ━━━━━━━━━━━━━━━━━━━━ 3s 286ms/step - accuracy: 0.8967 - loss: 0.3279 - val_accuracy: 0.9062 - val_loss: 0.3166
+Epoch 10/10
+ 1/11 ━━━━━━━━━━━━━━━━━━━━ 2s 271ms/step - accuracy: 0.9375 - loss: 0.31712024-04-15 23:16:08.282433: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-04-15 23:16:08.295029: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - accuracy: 0.9375 - loss: 0.3171 - val_accuracy: 0.7500 - val_loss: 0.7532
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
